@@ -101,7 +101,13 @@
 							"inputs": [
 								{
 									"referenceName": "RestResource1",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"ticket": {
+											"value": "@item()",
+											"type": "Expression"
+										}
+									}
 								}
 							],
 							"outputs": [
