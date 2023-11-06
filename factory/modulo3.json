@@ -1,0 +1,9 @@
+{
+	"name": "modulo3",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1f36993f-d1b5-4880-9944-7ba0d94d1f05",
+		"tenantId": "4ca0b428-3649-4637-a177-b60a94a0006e"
+	}
+}
