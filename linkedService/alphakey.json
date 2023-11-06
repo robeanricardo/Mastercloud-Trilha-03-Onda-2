@@ -1,0 +1,12 @@
+{
+	"name": "alphakey",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=BBDC4.SA&apikey=0K43QG6R0GTT60JF",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
