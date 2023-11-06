@@ -73,6 +73,14 @@
 				"defaultValue": "@linkedService(\\\"AzureKeyVault1\\\").secret.alphakeyapi\\"
 			}
 		},
+		"variables": {
+			"tickets": {
+				"type": "Array",
+				"defaultValue": [
+					"['aapl', 'msft']"
+				]
+			}
+		},
 		"folder": {
 			"name": "Prática 01"
 		},

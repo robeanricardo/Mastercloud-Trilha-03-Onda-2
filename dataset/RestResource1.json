@@ -5,13 +5,24 @@
 			"referenceName": "alphakey",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"apikey": {
+				"type": "string"
+			},
+			"ticket": {
+				"type": "string"
+			}
+		},
 		"folder": {
 			"name": "pratica2"
 		},
 		"annotations": [],
 		"type": "RestResource",
 		"typeProperties": {
-			"relativeUrl": ""
+			"relativeUrl": {
+				"value": "@concat(\n    'v2/aggs/ticker/',\n    dataset().ticket,\n    '/range/1/day/2023-01-09/2023-01-09?apiKey=',\n    dataset().apikey\n)",
+				"type": "Expression"
+			}
 		},
 		"schema": []
 	}
