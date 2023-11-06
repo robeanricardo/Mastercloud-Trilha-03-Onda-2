@@ -44,7 +44,13 @@
 				"outputs": [
 					{
 						"referenceName": "Json1",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"camada": {
+								"value": "@concat(pipeline().parameters.camada1)",
+								"type": "Expression"
+							}
+						}
 					}
 				]
 			}
