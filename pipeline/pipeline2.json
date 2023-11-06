@@ -64,7 +64,7 @@
 			},
 			"apikey": {
 				"type": "string",
-				"defaultValue": "@linkedService(\\\"MastercloudVault\\\").secret.alphavantagekey\\"
+				"defaultValue": "@linkedService(\\\"AzureKeyVault1\\\").secret.alphakeyapi\\"
 			}
 		},
 		"folder": {
