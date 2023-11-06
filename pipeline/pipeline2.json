@@ -60,6 +60,10 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
+					"items": {
+						"value": "@variables('tickets')",
+						"type": "Expression"
+					},
 					"activities": [
 						{
 							"name": "Copy data1_copy1",
