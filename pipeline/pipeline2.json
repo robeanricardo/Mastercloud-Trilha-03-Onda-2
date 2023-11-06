@@ -49,6 +49,24 @@
 				]
 			}
 		],
+		"parameters": {
+			"camada1": {
+				"type": "string",
+				"defaultValue": "bronze"
+			},
+			"camada2": {
+				"type": "string",
+				"defaultValue": "prata"
+			},
+			"camada3": {
+				"type": "string",
+				"defaultValue": "ouro"
+			},
+			"apikey": {
+				"type": "string",
+				"defaultValue": "@linkedService(\\\"MastercloudVault\\\").secret.alphavantagekey\\"
+			}
+		},
 		"folder": {
 			"name": "Prática 01"
 		},
